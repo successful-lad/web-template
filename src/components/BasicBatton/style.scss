@@ -1,0 +1,55 @@
+.basicButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__button {
+    padding: 15px 100px;
+    border-radius: 50px;
+    border: none;
+    font-family: PT Root UI, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    transition: all ease 0.5s;
+    text-align: center;
+    outline: none;
+
+    &_white {
+      cursor: pointer;
+      background: #F9F8F8;
+
+      &:hover {
+        background: #FDC14E;
+      }
+
+      &:disabled {
+        color: rgba(16, 16, 16, 0.3);
+        cursor: default;
+        pointer-events: none !important;
+      }
+    }
+
+    &_orange {
+      cursor: pointer;
+      //background: #FDC14E;
+
+      &:hover {
+        //background: #F9F8F8;
+      }
+
+      &:disabled {
+        color: rgba(16, 16, 16, 0.3);
+        cursor: default;
+        pointer-events: none;
+      }
+    }
+
+    &__small-orange {
+      padding: 15px 48px;
+      //background: #FDC14E;
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 import { history } from "../../appConfig";
 import routes from "../../consts/routes";
-
+ 
 // import React, {useEffect, useState} from 'react';
 /** api method**/
 // import {getAllTourList} from '../../apiMethods'
